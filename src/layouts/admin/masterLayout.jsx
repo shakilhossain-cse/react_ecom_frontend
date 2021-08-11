@@ -34,9 +34,8 @@ export default function MasterLayout() {
                   )
                 );
               })}
-              <Redirect from="admin" to="/admin/dashboard"/>
+              <Redirect from="/admin" to="/admin/dashboard"/>
             </Switch>
-            {/* name={route.name} render={(props) => route.component}{" "} */}
           </main>
           <Footer />
         </div>

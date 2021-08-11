@@ -10,7 +10,7 @@ export default function Sidebar() {
       >
         <div className="sb-sidenav-menu">
           <div className="nav">
-            <div className="sb-sidenav-menu-heading">Core</div>
+            <div className="sb-sidenav-menu-heading">Over View</div>
             <Link className="nav-link" to="/admin/dashboard">
               <div className="sb-nav-link-icon">
                 <i className="fas fa-tachometer-alt"></i>
